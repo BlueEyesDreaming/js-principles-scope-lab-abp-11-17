@@ -18,8 +18,8 @@ function changeLeastFavoriteCustomer() {
   leastFavoriteCustomer = 'other person';
 }
 
-const favoriteCustomer = 'me';
+let favoriteCustomer = 'me';
 
 function attemptTwoFavoriteCustomers() {
-  favoriteCustomer = 'not me';
+  let favoriteCustomer = 'not me';
 }
