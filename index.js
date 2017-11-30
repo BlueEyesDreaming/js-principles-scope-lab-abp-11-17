@@ -5,5 +5,6 @@ var customerName = 'bob';
 //}
 
 function setBestCustomer(bestCustomer) {
-  return 'not ${customerName}'
+  bestCustomer = 'not ${customerName}'
+  return bestCustomer
 }
