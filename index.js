@@ -1,1 +1,2 @@
-customerName = 'bob';
+var customerName = 'bob';
+upperCaseCustomerName = customerName.toUpperCase;
